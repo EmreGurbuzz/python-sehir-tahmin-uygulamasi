@@ -19,5 +19,7 @@ document.getElementById('hint-button').addEventListener('click', function() {
         .catch(error => console.error('Error:', error));
 });
 
+// Remove the form submission check
+
 
 
