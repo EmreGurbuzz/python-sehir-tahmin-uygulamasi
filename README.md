@@ -1,6 +1,6 @@
 # Python Yer Bilme Uygulaması
 
-Bu proje, basit bir Flask uygulaması kullanarak bir ülke tahmin oyunu oluşturur.
+Bu proje, basit bir Flask uygulaması kullanarak bir şehir tahmin oyunu oluşturur.
 
 ## Kurulum
 
@@ -12,4 +12,4 @@ Bu proje, basit bir Flask uygulaması kullanarak bir ülke tahmin oyunu oluştur
 ### Adımlar
 
 1. Bu projeyi klonlayın veya indirin:
-   
+    
