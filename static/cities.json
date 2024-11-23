@@ -1,0 +1,652 @@
+{
+    "cities": [
+        {
+            "name": "Adana",
+            "plate": 1,
+            "coordinates": [37.0, 35.3213],
+            "hints": ["Meşhur yemek: Adana Kebabı", "Ünlü yer: Taş Köprü"],
+            "famous_foods": ["Adana Kebabı", "Şalgam"],
+            "famous_places": ["Taş Köprü", "Seyhan Barajı"]
+        },
+        {
+            "name": "Adıyaman",
+            "plate": 2,
+            "coordinates": [37.7648, 38.2786],
+            "hints": ["Meşhur yemek: Çiğ Köfte", "Ünlü yer: Nemrut Dağı"],
+            "famous_foods": ["Çiğ Köfte", "Adıyaman Tavası"],
+            "famous_places": ["Nemrut Dağı", "Cendere Köprüsü"]
+        },
+        {
+            "name": "Afyonkarahisar",
+            "plate": 3,
+            "coordinates": [38.7638, 30.5403],
+            "hints": ["Meşhur yemek: Afyon Sucuğu", "Ünlü yer: Afyon Kalesi"],
+            "famous_foods": ["Afyon Sucuğu", "Kaymak"],
+            "famous_places": ["Afyon Kalesi", "Frig Vadisi"]
+        },
+        {
+            "name": "Ağrı",
+            "plate": 4,
+            "coordinates": [39.7191, 43.0519],
+            "hints": ["Meşhur yemek: Abdigör Köftesi", "Ünlü yer: Ağrı Dağı"],
+            "famous_foods": ["Abdigör Köftesi", "Hengel"],
+            "famous_places": ["Ağrı Dağı", "İshak Paşa Sarayı"]
+        },
+        {
+            "name": "Amasya",
+            "plate": 5,
+            "coordinates": [40.6539, 35.8333],
+            "hints": ["Meşhur yemek: Amasya Elması", "Ünlü yer: Kral Kaya Mezarları"],
+            "famous_foods": ["Amasya Elması", "Keşkek"],
+            "famous_places": ["Kral Kaya Mezarları", "Yeşilırmak"]
+        },
+        {
+            "name": "Ankara",
+            "plate": 6,
+            "coordinates": [39.9334, 32.8597],
+            "hints": ["Meşhur yemek: Ankara Tava", "Ünlü yer: Anıtkabir"],
+            "famous_foods": ["Ankara Tava", "Beypazarı Kurusu"],
+            "famous_places": ["Anıtkabir", "Atatürk Orman Çiftliği"]
+        },
+        {
+            "name": "Antalya",
+            "plate": 7,
+            "coordinates": [36.8969, 30.7133],
+            "hints": ["Meşhur yemek: Piyaz", "Ünlü yer: Düden Şelalesi"],
+            "famous_foods": ["Piyaz", "Serpme Börek"],
+            "famous_places": ["Düden Şelalesi", "Konyaaltı Plajı"]
+        },
+        {
+            "name": "Artvin",
+            "plate": 8,
+            "coordinates": [41.1828, 41.8194],
+            "hints": ["Meşhur yemek: Hamsili Pilav", "Ünlü yer: Karagöl"],
+            "famous_foods": ["Hamsili Pilav", "Laz Böreği"],
+            "famous_places": ["Karagöl", "Macahel"]
+        },
+        {
+            "name": "Aydın",
+            "plate": 9,
+            "coordinates": [37.8444, 27.8458],
+            "hints": ["Meşhur yemek: Çine Köftesi", "Ünlü yer: Kuşadası"],
+            "famous_foods": ["Çine Köftesi", "İncir"],
+            "famous_places": ["Kuşadası", "Didim"]
+        },
+        {
+            "name": "Balıkesir",
+            "plate": 10,
+            "coordinates": [39.6484, 27.8826],
+            "hints": ["Meşhur yemek: Höşmerim", "Ünlü yer: Cunda Adası"],
+            "famous_foods": ["Höşmerim", "Susurluk Ayranı"],
+            "famous_places": ["Cunda Adası", "Kaz Dağları"]
+        },
+        {
+            "name": "Bilecik",
+            "plate": 11,
+            "coordinates": [40.1500, 29.9833],
+            "hints": ["Meşhur yemek: Bilecik Köftesi", "Ünlü yer: Söğüt"],
+            "famous_foods": ["Bilecik Köftesi", "Pazaryeri Helvası"],
+            "famous_places": ["Söğüt", "Şeyh Edebali Türbesi"]
+        },
+        {
+            "name": "Bingöl",
+            "plate": 12,
+            "coordinates": [38.8853, 40.4983],
+            "hints": ["Meşhur yemek: Mastuva", "Ünlü yer: Yüzen Adalar"],
+            "famous_foods": ["Mastuva", "Kavut"],
+            "famous_places": ["Yüzen Adalar", "Karlıova"]
+        },
+        {
+            "name": "Bitlis",
+            "plate": 13,
+            "coordinates": [38.4019, 42.1078],
+            "hints": ["Meşhur yemek: Büryan Kebabı", "Ünlü yer: Nemrut Krater Gölü"],
+            "famous_foods": ["Büryan Kebabı", "Avşor"],
+            "famous_places": ["Nemrut Krater Gölü", "Ahlat Mezar Taşları"]
+        },
+        {
+            "name": "Bolu",
+            "plate": 14,
+            "coordinates": [40.7350, 31.6061],
+            "hints": ["Meşhur yemek: Mengen Pilavı", "Ünlü yer: Abant Gölü"],
+            "famous_foods": ["Mengen Pilavı", "Kabaklı Gözleme"],
+            "famous_places": ["Abant Gölü", "Yedigöller"]
+        },
+        {
+            "name": "Burdur",
+            "plate": 15,
+            "coordinates": [37.7203, 30.2903],
+            "hints": ["Meşhur yemek: Burdur Şiş", "Ünlü yer: Salda Gölü"],
+            "famous_foods": ["Burdur Şiş", "Ceviz Ezmesi"],
+            "famous_places": ["Salda Gölü", "Sagalassos"]
+        },
+        {
+            "name": "Bursa",
+            "plate": 16,
+            "coordinates": [40.1826, 29.0665],
+            "hints": ["Meşhur yemek: İskender Kebabı", "Ünlü yer: Uludağ"],
+            "famous_foods": ["İskender Kebabı", "Kestane Şekeri"],
+            "famous_places": ["Uludağ", "Cumalıkızık"]
+        },
+        {
+            "name": "Çanakkale",
+            "plate": 17,
+            "coordinates": [40.1553, 26.4142],
+            "hints": ["Meşhur yemek: Peynir Helvası", "Ünlü yer: Truva Antik Kenti"],
+            "famous_foods": ["Peynir Helvası", "Ezine Peyniri"],
+            "famous_places": ["Truva Antik Kenti", "Gelibolu Yarımadası"]
+        },
+        {
+            "name": "Çankırı",
+            "plate": 18,
+            "coordinates": [40.6013, 33.6134],
+            "hints": ["Meşhur yemek: Yaren Güveci", "Ünlü yer: Tuz Mağarası"],
+            "famous_foods": ["Yaren Güveci", "Çankırı Kaya Tuzu"],
+            "famous_places": ["Tuz Mağarası", "Ilgaz Dağı"]
+        },
+        {
+            "name": "Çorum",
+            "plate": 19,
+            "coordinates": [40.5489, 34.9533],
+            "hints": ["Meşhur yemek: İskilip Dolması", "Ünlü yer: Hattuşaş"],
+            "famous_foods": ["İskilip Dolması", "Leblebi"],
+            "famous_places": ["Hattuşaş", "Alacahöyük"]
+        },
+        {
+            "name": "Denizli",
+            "plate": 20,
+            "coordinates": [37.7765, 29.0864],
+            "hints": ["Meşhur yemek: Denizli Kebabı", "Ünlü yer: Pamukkale"],
+            "famous_foods": ["Denizli Kebabı", "Tandır Kebabı"],
+            "famous_places": ["Pamukkale", "Hierapolis"]
+        },
+        {
+            "name": "Diyarbakır",
+            "plate": 21,
+            "coordinates": [37.9144, 40.2306],
+            "hints": ["Meşhur yemek: Diyarbakır Karpuzu", "Ünlü yer: Diyarbakır Surları"],
+            "famous_foods": ["Diyarbakır Karpuzu", "Kaburga Dolması"],
+            "famous_places": ["Diyarbakır Surları", "Hasan Paşa Hanı"]
+        },
+        {
+            "name": "Edirne",
+            "plate": 22,
+            "coordinates": [41.6772, 26.5558],
+            "hints": ["Meşhur yemek: Ciğer Tava", "Ünlü yer: Selimiye Camii"],
+            "famous_foods": ["Ciğer Tava", "Deva-i Misk"],
+            "famous_places": ["Selimiye Camii", "Edirne Sarayı"]
+        },
+        {
+            "name": "Elazığ",
+            "plate": 23,
+            "coordinates": [38.6743, 39.2220],
+            "hints": ["Meşhur yemek: Harput Köftesi", "Ünlü yer: Harput Kalesi"],
+            "famous_foods": ["Harput Köftesi", "Orcik"],
+            "famous_places": ["Harput Kalesi", "Hazar Gölü"]
+        },
+        {
+            "name": "Erzincan",
+            "plate": 24,
+            "coordinates": [39.7500, 39.5000],
+            "hints": ["Meşhur yemek: Tulum Peyniri", "Ünlü yer: Girlevik Şelalesi"],
+            "famous_foods": [" Tulum Peyniri", "Kesme Çorbası"],
+            "famous_places": ["Girlevik Şelalesi", "Ergan Dağı"]
+        },
+        {
+            "name": "Erzurum",
+            "plate": 25,
+            "coordinates": [39.9042, 41.2679],
+            "hints": ["Meşhur yemek: Cağ Kebabı", "Ünlü yer: Palandöken"],
+            "famous_foods": ["Cağ Kebabı", "Kadayıf Dolması"],
+            "famous_places": ["Palandöken", "Çifte Minareli Medrese"]
+        },
+        {
+            "name": "Eskişehir",
+            "plate": 26,
+            "coordinates": [39.7767, 30.5206],
+            "hints": ["Meşhur yemek: Çibörek", "Ünlü yer: Odunpazarı"],
+            "famous_foods": ["Çibörek", "Balaban Kebabı"],
+            "famous_places": ["Odunpazarı", "Porsuk Çayı"]
+        },
+        {
+            "name": "Gaziantep",
+            "plate": 27,
+            "coordinates": [37.0662, 37.3833],
+            "hints": ["Meşhur yemek: Baklava", "Ünlü yer: Zeugma Mozaik Müzesi"],
+            "famous_foods": ["Baklava", "Küşleme"],
+            "famous_places": ["Zeugma Mozaik Müzesi", "Gaziantep Kalesi"]
+        },
+        {
+            "name": "Giresun",
+            "plate": 28,
+            "coordinates": [40.9128, 38.3895],
+            "hints": ["Meşhur yemek: Fındık", "Ünlü yer: Giresun Adası"],
+            "famous_foods": ["Fındık", "Karalahana Çorbası"],
+            "famous_places": ["Giresun Adası", "Kuzalan Şelalesi"]
+        },
+        {
+            "name": "Gümüşhane",
+            "plate": 29,
+            "coordinates": [40.4600, 39.4817],
+            "hints": ["Meşhur yemek: Pestil", "Ünlü yer: Karaca Mağarası"],
+            "famous_foods": ["Pestil", "Köme"],
+            "famous_places": ["Karaca Mağarası", "Santa Harabeleri"]
+        },
+        {
+            "name": "Hakkari",
+            "plate": 30,
+            "coordinates": [37.5744, 43.7408],
+            "hints": ["Meşhur yemek: Doğaba", "Ünlü yer: Cilo Dağı"],
+            "famous_foods": ["Doğaba", "Yüksekova Balı"],
+            "famous_places": ["Cilo Dağı", "Sat Buzul Gölleri"]
+        },
+        {
+            "name": "Hatay",
+            "plate": 31,
+            "coordinates": [36.4018, 36.3498],
+            "hints": ["Meşhur yemek: Künefe", "Ünlü yer: Harbiye Şelaleleri"],
+            "famous_foods": ["Künefe", "Oruk"],
+            "famous_places": ["Harbiye Şelaleleri", "Saint Pierre Kilisesi"]
+        },
+        {
+            "name": "Isparta",
+            "plate": 32,
+            "coordinates": [37.7648, 30.5566],
+            "hints": ["Meşhur yemek: Kabune", "Ünlü yer: Eğirdir Gölü"],
+            "famous_foods": ["Kabune", "Gül Reçeli"],
+            "famous_places": ["Eğirdir Gölü", "Davraz Dağı"]
+        },
+        {
+            "name": "Mersin",
+            "plate": 33,
+            "coordinates": [36.8121, 34.6415],
+            "hints": ["Meşhur yemek: Tantuni", "Ünlü yer: Kızkalesi"],
+            "famous_foods": ["Tantuni", "Cezerye"],
+            "famous_places": ["Kızkalesi", "Cennet ve Cehennem Mağaraları"]
+        },
+        {
+            "name": "İstanbul",
+            "plate": 34,
+            "coordinates": [41.0082, 28.9784],
+            "hints": ["Meşhur yemek: Döner", "Ünlü yer: Ayasofya"],
+            "famous_foods": ["Döner", "Simit"],
+            "famous_places": ["Ayasofya", "Topkapı Sarayı"]
+        },
+        {
+            "name": "İzmir",
+            "plate": 35,
+            "coordinates": [38.4237, 27.1428],
+            "hints": ["Meşhur yemek: Boyoz", "Ünlü yer: Efes Antik Kenti"],
+            "famous_foods": ["Boyoz", "Kumru"],
+            "famous_places": ["Efes Antik Kenti", "Saat Kulesi"]
+        },
+        {
+            "name": "Kars",
+            "plate": 36,
+            "coordinates": [40.6013, 43.0975],
+            "hints": ["Meşhur yemek: Kars Kazı", "Ünlü yer: Ani Harabeleri"],
+            "famous_foods": ["Kars Kazı", "Gravyer Peyniri"],
+            "famous_places": ["Ani Harabeleri", "Sarıkamış"]
+        },
+        {
+            "name": "Kastamonu",
+            "plate": 37,
+            "coordinates": [41.3887, 33.7827],
+            "hints": ["Meşhur yemek: Etli Ekmek", "Ünlü yer: Ilgaz Dağı"],
+            "famous_foods": ["Etli Ekmek", "Kuyu Kebabı"],
+            "famous_places": ["Ilgaz Dağı", "Kastamonu Kalesi"]
+        },
+        {
+            "name": "Kayseri",
+            "plate": 38,
+            "coordinates": [38.7312, 35.4787],
+            "hints": ["Meşhur yemek: Mantı", "Ünlü yer: Erciyes Dağı"],
+            "famous_foods": ["Mantı", "Pastırma"],
+            "famous_places": ["Erciyes Dağı", "Kapuzbaşı Şelalesi"]
+        },
+        {
+            "name": "Kırklareli",
+            "plate": 39,
+            "coordinates": [41.7351, 27.2253],
+            "hints": ["Meşhur yemek: Kırklareli Köftesi", "Ünlü yer: Dupnisa Mağarası"],
+            "famous_foods": ["Kırklareli Köftesi", "Hardaliye"],
+            "famous_places": ["Dupnisa Mağarası", "İğneada Longoz Ormanları"]
+        },
+        {
+            "name": "Kırşehir",
+            "plate": 40,
+            "coordinates": [39.1458, 34.1606],
+            "hints": ["Meşhur yemek: Kırşehir Tava", "Ünlü yer: Cacabey Medresesi"],
+            "famous_foods": ["Kırşehir Tava", "Çullama"],
+            "famous_places": ["Cacabey Medresesi", "Kaman Kalehöyük"]
+        },
+        {
+            "name": "Kocaeli",
+            "plate": 41,
+            "coordinates": [40.8533, 29.8815],
+            "hints": ["Meşhur yemek: Pişmaniye", "Ünlü yer: Kartepe"],
+            "famous_foods": ["Pişmaniye", "Uğut"],
+            "famous_places": ["Kartepe", "Maşukiye"]
+        },
+        {
+            "name": "Konya",
+            "plate": 42,
+            "coordinates": [37.8746, 32.4932],
+            "hints": ["Meşhur yemek: Etli Ekmek", "Ünlü yer: Mevlana Müzesi"],
+            "famous_foods": ["Etli Ekmek", "Fırın Kebabı"],
+            "famous_places": ["Mevlana Müzesi", "Sille"]
+        },
+        {
+            "name": "Kütahya",
+            "plate": 43,
+            "coordinates": [39.4167, 29.9833],
+            "hints": ["Meşhur yemek: Kütahya Güveci", "Ünlü yer: Aizanoi Antik Kenti"],
+            "famous_foods": ["Kütahya Güveci", "Simit Tiridi"],
+            "famous_places": ["Aizanoi Antik Kenti", "Frig Vadisi"]
+        },
+        {
+            "name": "Malatya",
+            "plate": 44,
+            "coordinates": [38.3552, 38.3095],
+            "hints": ["Meşhur yemek: Kayısı", "Ünlü yer: Nemrut Dağı"],
+            "famous_foods": ["Kayısı", "Kağıt Kebabı"],
+            "famous_places": ["Nemrut Dağı", "Aslantepe Höyüğü"]
+        },
+        {
+            "name": "Manisa",
+            "plate": 45,
+            "coordinates": [38.6191, 27.4289],
+            "hints": ["Meşhur yemek: Mesir Macunu", "Ünlü yer: Spil Dağı"],
+            "famous_foods": ["Mesir Macunu", "Akhisar Köftesi"],
+            "famous_places": ["Spil Dağı", "Kula Evleri"]
+        },
+        {
+            "name": "Kahramanmaraş",
+            "plate": 46,
+            "coordinates": [37.5858, 36.9371],
+            "hints": ["Meşhur yemek: Maraş Dondurması", "Ünlü yer: Yedikuyular Kayak Merkezi"],
+            "famous_foods": ["Maraş Dondurması", "Tarhana"],
+            "famous_places": ["Yedikuyular Kayak Merkezi", "Germenicia Antik Kenti"]
+        },
+        {
+            "name": "Mardin",
+            "plate": 47,
+            "coordinates": [37.3122, 40.735],
+            "hints": ["Meşhur yemek: Kaburga Dolması", "Ünlü yer: Dara Antik Kenti"],
+            "famous_foods": ["Kaburga Dolması", "İkbebet"],
+            "famous_places": ["Dara Antik Kenti", "Mardin Kalesi"]
+        },
+        {
+            "name": "Muğla",
+            "plate": 48,
+            "coordinates": [37.2153, 28.3636],
+            "hints": ["Meşhur yemek: Muğla Köftesi", "Ünlü yer: Ölüdeniz"],
+            "famous_foods": ["Muğla Köftesi", "Çökertme Kebabı"],
+            "famous_places": ["Ölüdeniz", "Bodrum Kalesi"]
+        },
+        {
+            "name": "Muş",
+            "plate": 49,
+            "coordinates": [38.9462, 41.7539],
+            "hints": ["Meşhur yemek: Muş Köftesi", "Ünlü yer: Murat Köprüsü"],
+            "famous_foods": ["Muş Köftesi", "Herise"],
+            "famous_places": ["Murat Köprüsü", "Arak Manastırı"]
+        },
+        {
+            "name": "Nevşehir",
+            "plate": 50,
+            "coordinates": [38.6244, 34.7239],
+            "hints": ["Meşhur yemek: Testi Kebabı", "Ünlü yer: Kapadokya"],
+            "famous_foods": ["Testi Kebabı", "Dolaz"],
+            "famous_places": ["Kapadokya", "Göreme Açık Hava Müzesi"]
+        },
+        {
+            "name": "Niğde",
+            "plate": 51,
+            "coordinates": [37.9667, 34.6833],
+            "hints": ["Meşhur yemek: Niğde Tava", "Ünlü yer: Aladağlar Milli Parkı"],
+            "famous_foods": ["Niğde Tava", "Gazoz"],
+            "famous_places": ["Aladağlar Milli Parkı", "Tyana Su Kemerleri"]
+        },
+        {
+            "name": "Ordu",
+            "plate": 52,
+            "coordinates": [40.9839, 37.8764],
+            "hints": ["Meşhur yemek: Pide", "Ünlü yer: Boztepe"],
+            "famous_foods": ["Pide", "Fındık"],
+            "famous_places": ["Boztepe", "Yason Burnu"]
+        },
+        {
+            "name": "Rize",
+            "plate": 53,
+            "coordinates": [41.0201, 40.5234],
+            "hints": ["Meşhur yemek: Muhlama", "Ünlü yer: Ayder Yaylası"],
+            "famous_foods": ["Muhlama", "Laz Böreği"],
+            "famous_places": ["Ayder Yaylası", "Zil Kale"]
+        },
+        {
+            "name": "Sakarya",
+            "plate": 54,
+            "coordinates": [40.7569, 30.3781],
+            "hints": ["Meşhur yemek: Islama Köfte", "Ünlü yer: Sapanca Gölü"],
+            "famous_foods": ["Islama Köfte", "Pekmezli Ayva"],
+            "famous_places": ["Sapanca Gölü", "Taraklı"]
+        },
+        {
+            "name": "Samsun",
+            "plate": 55,
+            "coordinates": [41.2867, 36.33],
+            "hints": ["Meşhur yemek: Bafra Pidesi", "Ünlü yer: Amisos Tepesi"],
+            "famous_foods": ["Bafra Pidesi", "Kaz Tiridi"],
+            "famous_places": ["Amisos Tepesi", "Bandırma Vapuru"]
+        },
+        {
+            "name": "Siirt",
+            "plate": 56,
+            "coordinates": [37.9333, 41.95],
+            "hints": ["Meşhur yemek: Büryan Kebabı", "Ünlü yer: Veysel Karani Türbesi"],
+            "famous_foods": ["Büryan Kebabı", "Perde Pilavı"],
+            "famous_places": ["Veysel Karani Türbesi", "Tillo Kalesi"]
+        },
+        {
+            "name": "Sinop",
+            "plate": 57,
+            "coordinates": [42.0264, 35.1551],
+            "hints": ["Meşhur yemek: Nokul", "Ünlü yer: Sinop Kalesi"],
+            "famous_foods": ["Nokul", "Mısır Çorbası"],
+            "famous_places": ["Sinop Kalesi", "Hamsilos Koyu"]
+        },
+        {
+            "name": "Sivas",
+            "plate": 58,
+            "coordinates": [39.7477, 37.0179],
+            "hints": ["Meşhur yemek: Sivas Köftesi", "Ünlü yer: Divriği Ulu Camii"],
+            "famous_foods": ["Sivas Köftesi", "Madımak"],
+            "famous_places": ["Divriği Ulu Camii", "Kangal Balıklı Kaplıca"]
+        },
+        {
+            "name": "Tekirdağ",
+            "plate": 59,
+            "coordinates": [40.978, 27.511],
+            "hints": ["Meşhur yemek: Tekirdağ Köftesi", "Ünlü yer: Rakoczi Müzesi"],
+            "famous_foods": ["Tekirdağ Köftesi", "Peynir Helvası"],
+            "famous_places": ["Rakoczi Müzesi", "Şarköy"]
+        },
+        {
+            "name": "Tokat",
+            "plate": 60,
+            "coordinates": [40.3167, 36.55],
+            "hints": ["Meşhur yemek: Tokat Kebabı", "Ünlü yer: Ballıca Mağarası"],
+            "famous_foods": ["Tokat Kebabı", "Bat"],
+            "famous_places": ["Ballıca Mağarası", "Zile Kalesi"]
+        },
+        {
+            "name": "Trabzon",
+            "plate": 61,
+            "coordinates": [41.0015, 39.7178],
+            "hints": ["Meşhur yemek: Akçaabat Köftesi", "Ünlü yer: Sümela Manastırı"],
+            "famous_foods": ["Akçaabat Köftesi", "Hamsiköy Sütlacı"],
+            "famous_places": ["Sümela Manastırı", "Uzungöl"]
+        },
+        {
+            "name": "Tunceli",
+            "plate": 62,
+            "coordinates": [39.1081, 39.5473],
+            "hints": ["Meşhur yemek: Dövmeç", "Ünlü yer: Munzur Vadisi Milli Parkı"],
+            "famous_foods": ["Dövmeç", "Kavut"],
+            "famous_places": ["Munzur Vadisi Milli Parkı", "Ovacık"]
+        },
+        {
+            "name": "Şanlıurfa",
+            "plate": 63,
+            "coordinates": [37.1674, 38.7955],
+            "hints": ["Meşhur yemek: Çiğ Köfte", "Ünlü yer: Göbeklitepe"],
+            "famous_foods": ["Çiğ Köfte", "Lahmacun"],
+            "famous_places": ["Göbeklitepe", "Balıklıgöl"]
+        },
+        {
+            "name": "Uşak",
+            "plate": 64,
+            "coordinates": [38.6823, 29.4082],
+            "hints": ["Meşhur yemek: Tarhana Çorbası", "Ünlü yer: Ulubey Kanyonu"],
+            "famous_foods": ["Tarhana Çorbası", "Cirit Köftesi"],
+            "famous_places": ["Ulubey Kanyonu", "Blaundus Antik Kenti"]
+        },
+        {
+            "name": "Van",
+            "plate": 65,
+            "coordinates": [38.5019, 43.4167],
+            "hints": ["Meşhur yemek: Van Kahvaltısı", "Ünlü yer: Van Gölü"],
+            "famous_foods": ["Van Kahvaltısı", "Keledoş"],
+            "famous_places": ["Van Gölü", "Akdamar Adası"]
+        },
+        {
+            "name": "Yozgat",
+            "plate": 66,
+            "coordinates": [39.8181, 34.8147],
+            "hints": ["Meşhur yemek: Testi Kebabı", "Ünlü yer: Çamlık Milli Parkı"],
+            "famous_foods": ["Testi Kebabı", "Arabaşı Çorbası"],
+            "famous_places": ["Çamlık Milli Parkı", "Kerkenes Harabeleri"]
+        },
+        {
+            "name": "Zonguldak",
+            "plate": 67,
+            "coordinates": [41.4564, 31.7987],
+            "hints": ["Meşhur yemek: Mancar Yemeği", "Ünlü yer: Gökgöl Mağarası"],
+            "famous_foods": ["Mancar Yemeği", "Uğmaç Çorbası"],
+            "famous_places": ["Gökgöl Mağarası", "Filyos Kalesi"]
+        },
+        {
+            "name": "Aksaray",
+            "plate": 68,
+            "coordinates": [38.3687, 34.036],
+            "hints": ["Meşhur yemek: Aksaray Tava", "Ünlü yer: Ihlara Vadisi"],
+            "famous_foods": ["Aksaray Tava", "Dolaz"],
+            "famous_places": ["Ihlara Vadisi", "Saratlı Kırkgöz Yeraltı Şehri"]
+        },
+        {
+            "name": "Bayburt",
+            "plate": 69,
+            "coordinates": [40.2589, 40.2286],
+            "hints": ["Meşhur yemek: Lor Dolması", "Ünlü yer: Baksı Müzesi"],
+            "famous_foods": ["Lor Dolması", "Galacoş"],
+            "famous_places": ["Baksı Müzesi", "Bayburt Kalesi"]
+        },
+        {
+            "name": "Karaman",
+            "plate": 70,
+            "coordinates": [37.1811, 33.215],
+            "hints": ["Meşhur yemek: Calla", "Ünlü yer: Karaman Kalesi"],
+            "famous_foods": ["Calla", "Batırık"],
+            "famous_places": ["Karaman Kalesi", "Taşkale Tahıl Ambarları"]
+        },
+        {
+            "name": "Kırıkkale",
+            "plate": 71,
+            "coordinates": [39.8468, 33.5153],
+            "hints": ["Meşhur yemek: Keskin Tava", "Ünlü yer: Çeşnigir Köprüsü"],
+            "famous_foods": ["Keskin Tava", "Yoğurtlu Tarhana"],
+            "famous_places": ["Çeşnigir Köprüsü", "Silah Sanayi Müzesi"]
+        },
+        {
+            "name": "Batman",
+            "plate": 72,
+            "coordinates": [37.8812, 41.1351],
+            "hints": ["Meşhur yemek: Perde Pilavı", "Ünlü yer: Hasankeyf"],
+            "famous_foods": ["Perde Pilavı", "İçli Köfte"],
+            "famous_places": ["Hasankeyf", "Malabadi Köprüsü"]
+        },
+        {
+            "name": "Şırnak",
+            "plate": 73,
+            "coordinates": [37.4187, 42.4918],
+            "hints": ["Meşhur yemek: Şırnak Kebabı", "Ünlü yer: Cudi Dağı"],
+            "famous_foods": ["Şırnak Kebabı", "Kutlık"],
+            "famous_places": ["Cudi Dağı", "Kasrik Boğazı"]
+        },
+        {
+            "name": "Bartın",
+            "plate": 74,
+            "coordinates": [41.6358, 32.3375],
+            "hints": ["Meşhur yemek: Pumpum Çorbası", "Ünlü yer: Amasra"],
+            "famous_foods": ["Pumpum Çorbası", "Amasra Salatası"],
+            "famous_places": ["Amasra", "İnkumu Plajı"]
+        },
+        {
+            "name": "Ardahan",
+            "plate": 75,
+            "coordinates": [41.1105, 42.7022],
+            "hints": ["Meşhur yemek: Evelik Dolması", "Ünlü yer: Çıldır Gölü"],
+            "famous_foods": ["Evelik Dolması", "Kazak Göçmen Çorbası"],
+            "famous_places": ["Çıldır Gölü", "Şeytan Kalesi"]
+        },
+        {
+            "name": "Iğdır",
+            "plate": 76,
+            "coordinates": [39.9237, 44.045],
+            "hints": ["Meşhur yemek: Bozbaş", "Ünlü yer: Ağrı Dağı"],
+            "famous_foods": ["Bozbaş", "Katmer"],
+            "famous_places": ["Ağrı Dağı", "Meteor Çukuru"]
+        },
+        {
+            "name": "Yalova",
+            "plate": 77,
+            "coordinates": [40.655, 29.2769],
+            "hints": ["Meşhur yemek: Yalova Kebabı", "Ünlü yer: Termal Kaplıcaları"],
+            "famous_foods": ["Yalova Kebabı", "Termal Helvası"],
+            "famous_places": ["Termal Kaplıcaları", "Yürüyen Köşk"]
+        },
+        {
+            "name": "Karabük",
+            "plate": 78,
+            "coordinates": [41.2049, 32.6277],
+            "hints": ["Meşhur yemek: Safranbolu Lokumu", "Ünlü yer: Safranbolu"],
+            "famous_foods": ["Safranbolu Lokumu", "Bükme"],
+            "famous_places": ["Safranbolu", "Yenice Ormanları"]
+        },
+        {
+            "name": "Kilis",
+            "plate": 79,
+            "coordinates": [36.7184, 37.1212],
+            "hints": ["Meşhur yemek: Kilis Tava", "Ünlü yer: Ravanda Kalesi"],
+            "famous_foods": ["Kilis Tava", "Cennet Çamuru"],
+            "famous_places": ["Ravanda Kalesi", "Oylum Höyük"]
+        },
+        {
+            "name": "Osmaniye",
+            "plate": 80,
+            "coordinates": [37.0748, 36.2474],
+            "hints": ["Meşhur yemek: Osmaniye Simidi", "Ünlü yer: Karatepe Aslantaş"],
+            "famous_foods": ["Osmaniye Simidi", "Zorkun Tava"],
+            "famous_places": ["Karatepe Aslantaş", "Toprakkale Kalesi"]
+        },
+        {
+            "name": "Düzce",
+            "plate": 81,
+            "coordinates": [40.8438, 31.1565],
+            "hints": ["Meşhur yemek: Melengüççeği Tatlısı", "Ünlü yer: Güzeldere Şelalesi"],
+            "famous_foods": ["Melengüççeği Tatlısı", "Kaldirik Dolması"],
+            "famous_places": ["Güzeldere Şelalesi", "Aydınpınar Şelalesi"]
+        }
+    ]
+}

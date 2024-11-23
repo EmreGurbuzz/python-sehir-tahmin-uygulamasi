@@ -1,7 +1,6 @@
-
 # Python Yer Bilme Uygulaması
 
-Bu proje, basit bir Flask uygulaması kullanarak "Hello, World!" mesajını render eden bir web sitesi oluşturur.
+Bu proje, basit bir Flask uygulaması kullanarak bir ülke tahmin oyunu oluşturur.
 
 ## Kurulum
 

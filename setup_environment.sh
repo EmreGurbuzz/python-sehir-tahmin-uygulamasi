@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 # Create a virtual environment
