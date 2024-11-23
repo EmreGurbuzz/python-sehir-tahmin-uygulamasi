@@ -70,7 +70,6 @@ def guess():
     if check_city_guess(user_city, session['city']):
         flash('Doğru tahmin ettiniz! Yeni soruya geçtiniz.', 'success')
         session['guesses'].append({'city': user_city, 'distance': 0})
-        session['attempts'] += 1  # Increase attempts on correct guess
         session['score'] += 1  # Increase score on correct guess
         print(f"Tahmin edilen şehir: {user_city}")
         generate_new_city()

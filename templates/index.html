@@ -13,21 +13,21 @@
     <div class="container mt-5">
         <h1 class="mb-4">Şehir Tahmin Oyunu</h1>
         {% with messages = get_flashed_messages(with_categories=true) %}
-            {% if messages %}
-                <div class="alert alert-dismissible fade show" role="alert" id="alert-message">
-                    {% for category, message in messages %}
-                        <div class="alert alert-{{ category }}">{{ message }}</div>
-                    {% endfor %}
-                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-            {% endif %}
+        {% if messages %}
+        <div class="alert alert-dismissible fade show" role="alert" id="alert-message">
+            {% for category, message in messages %}
+            <div class="alert alert-{{ category }}">{{ message }}</div>
+            {% endfor %}
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        {% endif %}
         {% endwith %}
         <form action="{{ url_for('guess') }}" method="POST">
-            <div class="form-group">
+            <div class="form-group position-relative">
                 <label for="city">Bir şehir adı girin:</label>
-                <input type="text" class="form-control" id="city" name="city" required>
+                <input type="text" class="form-control" id="city" name="city" required autocomplete="off">
                 <div id="city-dropdown" class="dropdown-menu" style="width: 100%;"></div>
             </div>
             <button type="submit" class="btn btn-primary">Gönder</button>
@@ -35,18 +35,19 @@
         </form>
         <div class="mt-4">
             <h3>Kalan Tahmin Hakkı: {{ 5 - session['attempts'] }}</h3>
+            <h3>Skor: {{ session['score'] }}</h3>
             <h3>Tahminler:</h3>
             <ul class="list-group">
                 {% for guess in session['guesses'] %}
-                    <li class="list-group-item">
-                        Şehir: {{ guess.city }}, Mesafe: {{ guess.distance }} km
-                    </li>
+                <li class="list-group-item">
+                    Şehir: {{ guess.city }}, Mesafe: {{ guess.distance }} km
+                </li>
                 {% endfor %}
             </ul>
             <h3>İpucu:</h3>
             <ul class="list-group" id="hints-list">
                 {% if session['hints'] %}
-                    <li class="list-group-item">{{ session['hints'][0] }}</li>
+                <li class="list-group-item">{{ session['hints'][0] }}</li>
                 {% endif %}
             </ul>
         </div>
@@ -57,10 +58,43 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="{{ url_for('static', filename='script.js') }}"></script>
     <script>
-        $(document).ready(function() {
-            setTimeout(function() {
+        $(document).ready(function () {
+            setTimeout(function () {
                 $('#alert-message').alert('close');
             }, 3000); // 3 seconds
+
+            $('#city').off('input').on('input', function () {
+                const input = $(this).val().toLowerCase();
+                const dropdown = $('#city-dropdown');
+                dropdown.empty();
+                fetch('/static/cities.json')
+                    .then(response => response.json())
+                    .then(data => {
+                        const cities = data.cities;
+                        cities.forEach(city => {
+                            if (city.name.toLowerCase().includes(input)) {
+                                const option = $('<a>').addClass('dropdown-item').text(city.name);
+                                option.on('click', function () {
+                                    $('#city').val(city.name);
+                                    dropdown.empty();
+                                });
+                                dropdown.append(option);
+                            }
+                        });
+                        if (dropdown.children().length > 0) {
+                            dropdown.addClass('show');
+                        } else {
+                            dropdown.removeClass('show');
+                        }
+                    })
+                    .catch(error => console.error('Error:', error));
+            });
+
+            $(document).on('click', function (e) {
+                if (!$(e.target).closest('#city').length) {
+                    $('#city-dropdown').removeClass('show');
+                }
+            });
         });
     </script>
 </body>
