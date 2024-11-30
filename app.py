@@ -117,5 +117,9 @@ def reset():
     session.pop('hint_index', None)
     return redirect(url_for('main.index'))
 
+@app.route('/privacy-policy')
+def privacy_policy():
+    return render_template('privacy_policy.html')
+
 if __name__ == '__main__':
     app.run(debug=True)
